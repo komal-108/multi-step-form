@@ -1,0 +1,124 @@
+.input_field_label_wrapper{
+    padding-bottom: 10px;
+
+}
+.input_field_label_text{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.text_field_input{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 0px;
+    padding-left: 5px !important;
+    outline: none;
+   } 
+   /* ......................................................... */
+  /* CustomMultiSelect.css */
+.multi-select {
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin: 10px 0px;
+  }
+  
+  .multi-select__control {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .multi-select__value-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    flex: 1;
+  }
+  
+  .multi-select__placeholder {
+    color: #aaa;
+  }
+  
+  .multi-select__tag {
+    display: flex;
+    align-items: center;
+    background-color: #3968ed;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+  }
+  
+  .multi-select__tag__remove {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .multi-select__arrow {
+    margin-left: 8px;
+  }
+  
+  .multi-select__menu {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 4px;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .multi-select__filter {
+    width: 100%;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .multi-select__option {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .multi-select__option p,.multi-select__tag p{
+    font-size: 14px;
+  }
+  .multi-select__option.selected {
+    background-color: #f1f1f1;
+  }
+  
+  .multi-select__option:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .multi-select__no-options {
+    padding: 8px;
+    color: #aaa;
+  }
+  /* ................amenity input ........... */
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  .tag{
+    font-size: 12px;
+  }
+  .delete {
+    cursor: pointer;
+    color: #ff0000;
+    font-weight: bold;
+  }
